@@ -1,0 +1,225 @@
+h1 {
+    text-align: center;
+    text-shadow: 0 0 10px #D82D28;
+    border: 1.5px solid #2AB2C0;
+    border-radius: 10px;
+    color: white;
+}
+
+p {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 15px;
+}
+
+.slideogp iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.5px solid #2AB2C0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+#firstparagraphanimation button,
+#secondparagrapanimation button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+
+
+#secondparagrapanimation img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px black;
+}
+
+.screenani:hover {
+    transform: scale(1.02);
+}
+
+.screenani {
+    border: 1.5px solid #2AB2C0;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+.linkher {
+    color: #2AB2C0;
+}
+
+
+@media (max-width: 900px) and (min-width: 350px) {
+    #animationh1 h1 {
+        margin-top: 1rem;
+        font-size: 2rem;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+
+    .screenani {
+        /*
+        width: 380px;
+        height: auto;
+*/
+        margin-top: 45px;
+        width: 90%;
+
+    }
+
+    #firstparagrapanimation h2,
+    #secondparagrapanimation h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+
+    #firstparagrapanimation iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1.5px solid #2AB2C0;
+        border-radius: 10px;
+        box-shadow: 0 0 20px black;
+        width: 90%;
+
+
+    }
+
+
+    #firstparagrapanimation button,
+    #secondparagraphUX button,
+    #thirdparagraphhUX button {
+
+        margin-top: 20px;
+        margin-bottom: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #firstparagraphanimation,
+    #thirdparagraphhUX,
+    #secondparagraphUX {
+        margin-bottom: 5rem;
+
+    }
+
+
+
+
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    #animationh1 h1 {
+        margin-top: 1rem;
+        font-size: 3rem;
+        margin-right: 25px;
+        margin-left: 25px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+
+    #firstparagrapanimation,
+    #secondparagrapanimation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 5rem;
+        padding: 0 15px 0 20px;
+        margin-top: 75px;
+        grid-gap: 10px;
+
+    }
+
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #firstparagrapanimation iframe {
+        width: 500px;
+        height: 310px;
+
+    }
+
+
+    #firstparagrapanimation,
+    #secondparagrapanimation {
+        margin-bottom: 10rem;
+
+    }
+
+    h2 {
+        padding-left: 18px;
+    }
+
+    .screenani {
+        width: 490px;
+        height: 290px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #animationh1 h1 {
+        margin-top: 3rem;
+        font-size: 4rem;
+        padding: 30px 16px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    h2 {
+        padding-left: 17px;
+    }
+
+    #firstparagrapanimation,
+    #secondparagrapanimation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 5rem;
+        padding: 0 15px 0 20px;
+        margin-top: 75px;
+        grid-gap: 20px;
+
+    }
+
+
+    .endeligeprotoIMG img {
+        width: 95%;
+    }
+
+    iframe {
+        width: 600px;
+        height: 360px;
+    }
+
+    #firstparagrapanimation,
+    #secondparagrapanimation {
+        margin-bottom: 10rem;
+    }
+
+    #firstparagrapanimation {
+        margin-top: 7rem;
+        padding-left: 5px;
+    }
+
+    .screenani {
+        width: 95%;
+    }
+
+    #firstparagrapanimation p {
+        padding-right: 30px;
+    }
+}

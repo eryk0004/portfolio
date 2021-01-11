@@ -6,35 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mutal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200&family=Libre+Barcode+39+Text&family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header id="my_header">
-        <div class="inner_header">
-            <div class="logo_container">
-                <h1>EM</h1>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">
+                <div class="brand-title">EM</div>
+            </a>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar_links">
+                <ul>
+                    <li><a href="om.html">Om mig</a></li>
+                    <li><a class="linje">׀</a></li>
+                    <li><a href="web.html">Grundlæggende web</a></li>
+                    <li><a href="ux.html">UI/UX</a></li>
+                    <li><a href="animation.html">Animation</a></li>
+                    <li><a href="indhold.html">Indhold</a></li>
+                </ul>
             </div>
-            <nav class="navigate">
-                <a class="a_hover" href="">Om mig</a>
-                <a class="linje">׀</a>
-                <a class="a_hover" href="">Grundlæggende web</a>
-                <a class="a_hover" href="">UI/UX</a>
-                <a class="a_hover" href="">Animation</a>
-                <a class="a_hover" href="">Indhold</a>
-            </nav>
-        </div>
+        </nav>
     </header>
 
     <section id="firstsectionSplash">
-        <div class="velkommenSektion">
+        <div class="portfolio_h1">
             <h1>Portfolio</h1>
-            <p>Eryk Piotr Munk</p>
-            <p>1 semester, Multimediedesign på KEA</p>
         </div>
-
+        <div class="portfolio_p">
+            <p>1 semester, Multimediedesign på KEA - Eryk Piotr Munk</p>
+        </div>
     </section>
 
-    <script src=""></script>
+    <section id="secondsectionMe">
+        <div class="migPre">
+            <h2>Om mig</h2>
+            <p>Mit navn er Eryk Piotr Munk. Jeg er 20 år gammel og bor i Rødovre. I øjeblikket læser jeg multimediedesign på Københavns Erhversakademi. I dette portfolio finder du et udpluk af mine projekter fra det første semester.
+            </p>
+            <p>Vi har været igennem fire intensive og læringsrige temaer med individuelle opgaver og mindre projektarbejde:</p>
+
+            <ul class="linjep">
+                <li><a href="web.html">Grunlæggende web</a></li>
+                <li><a href="ux.html">UI/UX</a></li>
+                <li><a href="animation.html">Animation</a></li>
+                <li><a href="indhold.html">Indhold</a></li>
+            </ul>
+
+            <p>Du kan lære mere om mig og mit kreative univers, ved at klikke dig ind nedenfor.</p>
+            <div class="center">
+                <a href="om.html" class="btn">Læs mere</a>
+            </div>
+        </div>
+
+        <div class="imgpre">
+            <img src="billeder/profilrund-kopi.png" alt="profilbillede">
+        </div>
+    </section>
+
+
+
+    <section id="thirdsectionProjectsPre">
+        <h2>Projekter</h2>
+        <div class="image-container">
+
+            <figure> <a href="web.html"><img src="billeder/projektPrejpg.jpg" alt="projekt"></a>
+
+                <figcaption>Grundlæggende Web</figcaption>
+
+            </figure>
+
+            <figure> <a href="ux.html"><img src="billeder/projektpre2.jpg" alt="projekt"></a>
+
+
+                <figcaption>UI/UX</figcaption>
+
+            </figure>
+
+        </div>
+
+        <section id="thirdsectionProjectsPre2">
+            <div class="image-container">
+                <figure><a href="animation.html"><img src="billeder/projektPre4.jpg" alt="projekt"></a>
+
+
+                    <figcaption>Animation</figcaption>
+
+                </figure>
+
+                <figure><a href="indhold.html"><img src="billeder/proejktPre3.jpg" alt="projekt"></a>
+
+                    <figcaption>Indhold</figcaption>
+
+                </figure>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="socials">
+                <li><a href="https://www.instagram.com/erykmunk/" target="_blank"><img src="billeder/instagram-alt-logo-24.png" alt="instagram logo"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCmQGGunbZDglHEKmIFL_YcQ" target="_blank"><img src="billeder/youtube-logo-24.png" alt="YouTube Logo"></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2020 Eryk Piotr Munk</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
