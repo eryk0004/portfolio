@@ -1,5 +1,5 @@
 #firstsectionSplash {
-    background-image: url(billeder/splashBaggrund-kopi.jpg);
+    background-image: url(billeder/splashimagemountain.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -184,13 +184,13 @@ h2 {
 
 
     .portfolio_h1 h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         padding-top: 240px;
 
     }
 
     .portfolio_p p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin: 0;
 
     }

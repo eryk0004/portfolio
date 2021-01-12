@@ -36,26 +36,7 @@ header {
     padding-top: 17px;
 }
 
-button {
-    border: none;
-    padding: 5px 32px;
-    text-decoration: none;
-    /*    display: inline-block;*/
-    font-size: 16px;
-    text-align: center;
-    background-color: transparent;
-    color: whitesmoke;
-    cursor: pointer;
-    border: 1.5px solid #2AB2C0;
-    border-radius: 10px;
-    font-family: 'Orbitron', sans-serif;
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-
-}
 
 .btn {
     padding: 1em 2.1em 1.1em;
@@ -64,9 +45,6 @@ button {
     color: whitesmoke;
     display: inline-block;
     background: #2AB2C0;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
     font-family: 'Orbitron', sans-serif;
     font-weight: 800;
@@ -74,12 +52,8 @@ button {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    /*
-    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
-*/
-    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
     position: relative;
+    box-shadow:
 }
 
 .btn:hover,
@@ -109,14 +83,6 @@ button {
     border: 1.5px solid #2AB2C0;
     border-radius: 10px;
     font-family: 'Orbitron', sans-serif;
-
-    /*
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-*/
-
 }
 
 a {
@@ -152,11 +118,7 @@ p {
     line-height: 1.4;
     color: whitesmoke;
     text-align: justify;
-
-
 }
-
-
 
 .navbar {
     display: flex;
@@ -193,11 +155,11 @@ p {
 
 }
 
-li a:hover {
+li .menubtn:hover {
     color: #2AB2C0;
     transition: 0.8s;
-    /*    text-shadow: 0.2px 0.2px 10px white;*/
 }
+
 
 .toggle-button {
     position: absolute;
@@ -310,9 +272,4 @@ footer {
 
 }
 
-@media (min-width: 900px) and (max-width: 1200px) {
-    body {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
+@media (min-width: 900px) and (max-width: 1200px) {}

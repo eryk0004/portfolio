@@ -31,7 +31,10 @@ p {
 
 }
 
-
+.h1ogp a {
+    text-decoration: none;
+    color: #2AB2C0;
+}
 
 #secondparagraphindhold img {
     display: block;
